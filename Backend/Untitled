@@ -1,0 +1,16 @@
+{
+   
+    "fullname":{
+        "firstname":"BVCD",
+        "lastname":"BCVD"
+    },
+    "email":"B@gmail.com",
+    "password":"ABC@123",
+    "vehicle":{
+        "color":"red",
+        "plate":"MP 04 XY 6201",
+        "capacity":4,
+        "vehicleType":"car"
+    }
+   
+}

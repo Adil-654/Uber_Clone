@@ -29,8 +29,7 @@ router.post(
   userController.loginUser  // Ensure this is a function
 );
 
-// Profile route - Ensure authMiddleware is a function
-router.get('/profile', authMiddleware, userController.getUserProfile);
-router.get('/logout',authMiddleware,userController.logoutUser)
+router.get('/profile', authMiddleware.authUser, userController.getUserProfile);
+router.get('/logout',authMiddleware.authUser,userController.logoutUser)
 
 module.exports = router;
